@@ -3,7 +3,7 @@ FROM buildpack-deps:jessie-scm
 RUN apt-get update && apt-get install -y \
 		autoconf \
 		build-essential \
-		imagemagick \
+		graphicsmagick \
 		libbz2-dev \
 		libcurl4-openssl-dev \
 		libevent-dev \
