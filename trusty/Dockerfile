@@ -1,4 +1,4 @@
-FROM buildpack-deps:wheezy-scm
+FROM buildpack-deps:trusty-scm
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		autoconf \
